@@ -25,7 +25,7 @@
                         </thead>
                         <tbody>
                         @foreach($reserveringen as $reservering)
-                            <tr id="{{$reservering->id}}" onclick="reservering({{$reservering->tafel_id)}}">
+                            <tr id="{{$reservering->id}}" onclick="reservering({{$reservering->tafel_id}})">
                                 <td>{{$reservering->tafel_id}}</td>
                                 <td>{{$reservering->voornaam}}</td>
                                 <td>{{$reservering->tussenvoegsels}}</td>
